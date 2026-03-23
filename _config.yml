@@ -1,0 +1,43 @@
+title: "Dash Labs"
+subtitle: "technical services, SEQ"
+email: rosscfiamingo@gmail.com
+description: "Electronics repair, data recovery, PCB design, web builds and technical consulting for businesses and individuals in South East Queensland."
+url: "https://rosscfiamingo.github.io"
+baseurl: ""
+
+author:
+  name: "Ross Fiamingo"
+  bio: "15 years across robotics, defence, mining and biomedical. I fix the hard stuff."
+  location: "Brisbane, QLD"
+  email: rosscfiamingo@gmail.com
+  avatar: "/assets/images/dash.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:rosscfiamingo@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/rosscfiamingo"
+    - label: "Portfolio"
+      icon: "fas fa-fw fa-folder-open"
+      url: "https://hotross.github.io"
+
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "neon"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+locale: "en-AU"
+timezone: "Australia/Brisbane"
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
