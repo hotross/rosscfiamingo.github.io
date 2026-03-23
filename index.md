@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: true
+title: " "
 ---
 
 # we fix the hard stuff.

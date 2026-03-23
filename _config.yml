@@ -22,7 +22,7 @@ author:
       icon: "fas fa-fw fa-folder-open"
       url: "https://hotross.github.io"
 
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "neon"
 
 plugins:
